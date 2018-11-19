@@ -1,1 +1,11 @@
+# Changelog
 
+## [0.9.0] - 19-11-2018
+### Added
+- Added exception handling where it was needed.
+- You will now receive an error message when you use an invalid value when creating a new service. 
+
+### Changed
+- Completely rebuilt the GUI to make it (arguably) more appealing and user friendly. 
+- Moved GUI code to FXML to remove clutter from main and make it easier to read.
+- Each tab now has it’s own controller class (everything was shoved into main before).
