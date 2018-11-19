@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+
+<ToolBar prefHeight="40.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <items>
+      <Button fx:id="displayOne" layoutX="10.0" layoutY="13.0" mnemonicParsing="false" onAction="#switchTabOne" text="Services" />
+      <Button fx:id="displayTwo" layoutX="122.0" layoutY="13.0" mnemonicParsing="false" onAction="#switchTabTwo" text="Add New" />
+  </items>
+</ToolBar>
